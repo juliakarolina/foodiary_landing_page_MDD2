@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&display=swap');
+
+.banner {
+	height: 90vh;
+	background-image: url("../images/banner.jpeg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 60px;
+}
+
+.banner h1 {
+	position: absolute; top:30px; right: 800px; left: 30px; 
+	margin: 0px;
+	font-size: 90px;
+	font-family: 'Lato', sans-serif;
+	color: #eeedf2;
+}
+
+.banner h2 {
+	position: absolute; top:125px; right: 800px; left: 33px; 
+	margin: 0px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	color: #FF414D;
+}
+
+.formcard-style {
+	background-color: rgba(243,0,0, 0.38);
+	height: 250px;
+	width: 900px;
+	border-radius: 14px;
+	text-align: center;
+	margin: 0 auto;
+	position: absolute; top:400px; right:30px; left: 50px;
+}
+
+.formcard-style p {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	text-align: left;
+	margin-left: 30px;
+
+}
+
+.formfield-style {
+	background-color: #FCF2F2;
+	height: 50px;
+	width: 840px;
+	border-radius: 7px;
+	position: absolute; top: 90px; right: 30px; left: 30px;
+}
+
+.formfield-style p {
+	color: rgba(0,0,0,0.4);
+	font-family: 'Lato', sans-serif;
+	font-size: 17px;
+	text-align: left;
+	margin:12px;
+}
+
+/* RESPONSIVE */
+
+@media (min-width: 500px) {
+	.banner h1 {
+		font-size: 50px;
+	}
+}
+
+@media (min-width: 768px) {
+	.banner h1 {
+		font-size: 60px;
+	}
+}
+
+@media (min-width: 992px) {
+	.banner h1 {
+		font-size: 90px;
+	}
+
+}
+
+@media (min-width: 1200px) {
+	.banner h1 {
+		font-size: 90px;
+	}
+}
+
+@media (min-width: 1400px) {
+	.banner h1 {
+		font-size: 90px;
+	}
+}

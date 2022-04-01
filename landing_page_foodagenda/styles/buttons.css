@@ -1,0 +1,17 @@
+.button{
+	background-color: rgb(243,0,0);
+	color: #FFFFFF;
+	width: 100px;
+	padding:12px;
+	border-radius: 6px;
+	position: absolute; top: 160px; right: 20px; left: 745px;
+	text-decoration: none;
+	font-family: 'Lato', sans-serif;
+}
+
+.button:hover{
+	background-color: #FFFFFF;
+	color: rgb(243,0,0);
+	font-family: 'Lato', sans-serif;
+	transition: 0.7s;
+}

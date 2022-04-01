@@ -1,0 +1,9 @@
+@import url('banner.css');
+@import url('cards.css');
+@import url('buttons.css');
+@import url('footer.css');
+
+body {
+	margin: 0;
+	background-color: #FCF2F2;
+}
